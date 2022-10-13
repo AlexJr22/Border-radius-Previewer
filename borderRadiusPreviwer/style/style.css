@@ -1,0 +1,11 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 31, 41);
+  display: flex;
+}
