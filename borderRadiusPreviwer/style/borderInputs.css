@@ -1,0 +1,25 @@
+#borderInputs {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 350px;
+  height: 100px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150px);  
+  
+  justify-content: space-evenly;
+}
+
+#borderTLEFT, #borderTRIGHT, #borderBLEFT, #borderBRIGHT {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  font-size: 1.2em;
+
+  padding-left: 7px;
+  
+  width: 150px;
+  height: 30px;
+}
