@@ -63,3 +63,6 @@
   font-size: 2em;
   transform: translateY(-3px);
 }
+.NewBotton input:focus {
+  outline: none;
+}
