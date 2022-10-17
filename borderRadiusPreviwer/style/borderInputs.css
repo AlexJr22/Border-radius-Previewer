@@ -1,25 +1,65 @@
-#borderInputs {
+#borderInputs{
   position: absolute;
   display: flex;
   flex-wrap: wrap;
 
-  width: 350px;
+  width: 300px;
   height: 100px;
 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 150px);  
+  transform: translate(-50%, 130px);  
   
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
-#borderTLEFT, #borderTRIGHT, #borderBLEFT, #borderBRIGHT {
+#borderInputs2 {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 300px;
+  height: 100px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(17%, 130px);  
+  
+  justify-content: flex-start;
+}
+
+#borderTLEFT, #borderTRIGHT, #borderBLEFT, #borderBRIGHT,
+#borderTLEFT2, #borderTRIGHT2, #borderBLEFT2, #borderBRIGHT2{
   background-color: rgb(21, 21, 21);
   color: white;
   font-size: 1.2em;
+  border: rgb(21, 21, 21) solid ;
 
   padding-left: 7px;
   
-  width: 150px;
+  width: 60px;
   height: 30px;
+}
+
+#Border-Top-Left, #Border-Top-Right, #Border-Botton-Left, 
+#Border-Botton-Right {
+  position: relative;
+  display: flex;
+  color: white;
+  width: 170px;
+  height: 60px;
+  font-size: 0.8em;
+}
+
+.NewBotton {
+  background-color: rgb(21, 21, 21);
+  height: 30px;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  border-radius: 5px;
+}
+.NewBotton p {
+  font-size: 2em;
+  transform: translateY(-3px);
 }
