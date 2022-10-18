@@ -13,7 +13,7 @@ let borderBLEFT2 = document.getElementById('borderBLEFT2');
 let borderBRIGHT = document.getElementById('borderBRIGHT'); //botton right
 let borderBRIGHT2 = document.getElementById('borderBRIGHT2');
 
-this.onload = borderPreviwer.borderRadius = '50% 17% 30% 73%'
+this.onload = borderPreviwer.borderRadius = '20% 100% 20% 100%'
 
 // top left
 borderTLEFT.addEventListener("change", (event) => {
